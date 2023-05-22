@@ -1,0 +1,138 @@
+body{
+    background-color:#F6F1F1;
+}
+.container{
+    display: flex;
+    background-color: #AEE2FF;
+    justify-content: center;
+    align-items:center;
+    /* height:100vh; */
+    /* margin-top:0; */
+}
+
+h1{
+    font-family: 'Dancing Script',cursive;
+    /* font-family: 'Libre Baskerville', serif; */
+    font-size:5rem;
+    color:#B799FF;
+    text-align: center;
+}
+h2{
+    font-size:40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    color:#B799FF;
+    text-align: center;
+}
+.first-one{
+    display: flex;
+    justify-content: right;
+    padding-top: 20px;
+}
+.second-one{
+    padding-top:20px;
+}
+#my-discription > img{
+    /* justify-content: center; */
+    border-radius: 50%;
+    padding-top:100px;
+}
+.hello{
+    color:#B799FF;
+}
+.discription{
+    display: flex;
+    background-color:#F6F1F1;
+    /* justify-content: center; */
+    /* align-items:center; */
+    /* padding-top: 100px; */
+    text-align: center;
+}
+#my-discription > p{
+    font-size:20px;
+    font-family:"Merriweather", serif;
+    color:#40514e;
+    width: 30%;
+    margin: auto;
+    padding-bottom:100px;
+    line-height: 2;
+}
+.dots{
+    border-style: none;
+    border-top: dotted;
+    height: 0px;
+    width: 10%;
+    border-width: 10px;
+    border-color: #B799FF;
+    /* padding-top:50px; */
+    padding-bottom:100px;
+    
+}
+.parent{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 50%;
+    margin: 100px auto 0 auto;
+    text-align: left;
+    row-gap: 2rem;
+    padding-bottom:100px;
+
+}
+h3{
+    font-size:20px;
+    font-family: 'Montserrat', sans-serif;
+    color:#B799FF;
+    /* line-height: 2; */
+}
+body > div.skills > div.parent > div.coding > p{
+    font-size:20px;
+    font-family:"Merriweather", serif;
+    color:#40514e;
+    line-height: 1;
+}
+body > div.skills > div.parent > div.hot-wings > p{
+    font-size:20px;
+    font-family:"Merriweather", serif;
+    color:#40514e;
+    line-height: 1;
+}
+.contact-me{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align:center;
+}
+body > div.skills > div.contact-me > p{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family:"Merriweather", serif;
+    font-size:20px;
+    color:#40514e;
+}
+.btn{
+    background-color:#2CD3E1;
+    font-family: 'Montserrat', sans-serif;
+    color:white;
+    font-size: 20px;
+    font-weight: 500;
+    padding:10px 10px;
+    border-radius:0.75rem;
+    /* font-size:20px; */
+}
+.Bottom-container{
+    text-align:center;
+    background-color:#2CD3E1;
+    padding-top:50px;
+    padding-bottom:50px;
+}
+.Bottom-container > .column{
+    font-family: 'Montserrat', sans-serif;
+    color:#B799FF;
+}
+.footer-my-name{
+    color:white;
+    padding-top:50px;
+}
+.footer-link{
+    padding:0px 20px 0px 20px;
+}
